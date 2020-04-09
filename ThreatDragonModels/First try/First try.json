@@ -48,8 +48,8 @@
                 "height": 80
               },
               "position": {
-                "x": 152,
-                "y": 92
+                "x": 70,
+                "y": 80
               },
               "angle": 0,
               "id": "8fe10588-1c7b-48f0-9feb-c4c5d880bd5f",
@@ -71,17 +71,15 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "x": 30,
-                "y": 20
+                "id": "8fe10588-1c7b-48f0-9feb-c4c5d880bd5f"
               },
               "target": {
-                "x": 110,
-                "y": 100
+                "id": "1a13b7ea-4d66-4a38-b76a-1998cf745d68"
               },
               "vertices": [
                 {
-                  "x": 143,
-                  "y": 28
+                  "x": 400,
+                  "y": 160
                 }
               ],
               "id": "7c422f49-cde6-4a8e-a20d-3024a68448d2",
