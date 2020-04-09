@@ -318,22 +318,48 @@
                 "height": 100
               },
               "position": {
-                "x": 290,
+                "x": 291,
                 "y": 61
               },
               "angle": 0,
               "id": "0ffa4a3c-3467-4d45-8ecc-2dab7bc27af4",
               "z": 8,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat"
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Browser"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -451,6 +477,38 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 568,
+                "y": 2
+              },
+              "target": {
+                "x": 371,
+                "y": 267
+              },
+              "vertices": [],
+              "id": "5725f9e3-b5ac-45ac-8186-eeab5f6adb71",
+              "z": 12,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 914,
+                "y": 130
+              },
+              "target": {
+                "x": 742,
+                "y": 385
+              },
+              "vertices": [],
+              "id": "374d9e89-3221-464a-85b2-4e23b68c1e0f",
+              "z": 13,
+              "attrs": {}
             }
           ]
         },
