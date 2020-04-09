@@ -8,6 +8,12 @@
         "name": "fajabird"
       }
     ],
-    "diagrams": []
+    "diagrams": [
+      {
+        "title": "test",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
   }
 }
